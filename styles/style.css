@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 21%;
+}
+
+.cabecalhoMenu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalhoMenuLink {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: orange;
+    text-decoration: none;
+}
+
+.titulo-destaque {
+    color: orange;
+}
+
+.apresentacao {
+    padding: 3% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.apresentacaoConteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    max-width: 600px; 
+}
+
+.apresentacaoConteudoTitulo {
+    font-size: 36px;
+    font-family:'Krona One', sans-serif;
+}
+
+.apresentacaoConteudoParagrafo {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacaoLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.apresentacaoLinksLink {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    background-color: transparent;
+    border: 2px solid orange;
+    width: 378px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 25px;
+    color: white;
+    padding: 21.5px 0;
+    margin-top: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.apresentacaoLinksLink:hover{
+    background-color: #272727;
+}
+
+.imagem {
+    border-radius: 20px;
+    max-width: 400px;
+}
+
+.apresentacaoLinksSubtitulo{
+    font-family: 'Krona One','sans-serif';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacaoLinksLinkImg {
+    width: 32px;
+    height: 32px;
+    
+}
+
+.rodape{
+    background-color: orange;
+    color: black;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat','sans-serif';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.curriculo{
+    padding: 2% 0% 2% 32.5%;
+}
+
+.imagem2 {
+    border-radius: 20px;
+}
